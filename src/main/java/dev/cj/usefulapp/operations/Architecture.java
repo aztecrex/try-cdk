@@ -8,6 +8,7 @@ public class Architecture {
 
         new FrontendStack(app, "try-cdk-frontend");
         new BackendStack(app, "try-cdk-backend");
+
         app.synth();
     }
 }
